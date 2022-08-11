@@ -1,0 +1,39 @@
+//Importando arquivos
+@import "abstract/functions";
+@import "abstract/variables";
+@import "abstract/mixins";
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities.scss";
+@import "pages/home";
+@import "components/button";
+@import "components/bg-video";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/form";
+@import "components/story";
+@import "components/card";
+@import "components/popup";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/navigation";
+@import "base/queries";
+
+/*
+0% - estado inicial , inicio da animacao
+100% - estado final , fim da animacao
+propriedade - animation-delay / animation-interation-count(quantidade de repeticoes).
+Shot propety
+animation: name duration timing;
+
+Animation correction:
+- backface-visibility: hidder; - div pai
+*/
+
+
+/*Criando a animaçao*/
+
+
+/* Queries */

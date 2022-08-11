@@ -1,0 +1,35 @@
+.header {
+    min-height: 75vh;
+    background-image: linear-gradient( to right bottom, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)), url(../img/hero-small.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    /* clip-path: polygon(x y, x y, x y , x y);*/
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    //Tela de Alta resoluçao
+    @media only screen and (min-resolution: 192dpi) and (min-width: 600px), (min-width: 2000px) {
+        background-image: linear-gradient( to right bottom, rgba($color-secondary-light, 0.8), rgba($color-primary-dark, 0.8)), url(../img/hero.jpg);
+    }
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+        backface-visibility: hidden;
+    }
+    &__logo {
+        height: 3.5rem;
+        animation: fadeIn 1s ease-in;
+        opacity: 0.5;
+        &:hover {
+            opacity: 1;
+        }
+    }
+    &__text-box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        /*transform: translate(x , y);*/
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}

@@ -1,19 +1,476 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+<html lang="pt-BR">
 
-        <link rel="stylesheet" href="css/icon-font.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-        
-        <title>Natours | Exciting tours for adventurous people</title>
-    </head>
-    <body>
-        
-        
-    </body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.min.css" />
+    <!-- <link rel="stylesheet" href="css/icon-font.css" /> -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>Natours | Exciting tours for adventurous people</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+        <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link"><span>01</span> Sobre Natours</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>02</span> Seus Benefícios</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>03</span> Pacotes mais Vendidos</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>04</span> Histórias de Aventuras</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>05</span> Reserve Agora</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="bg-grey">
+      <header class="header">
+        <div class="header__logo-box">
+          <img src="./img/logo-white.png" alt="logo" class="header__logo" />
+        </div>
+        <div class="header__text-box">
+          <h1 class="heading-primary">
+            <span class="heading-primary--main">Natureza</span>
+            <span class="heading-primary--sub">É aqui que a vida acontece</span>
+          </h1>
+          <a href="#section_tours" class="btn btn--white btn--animated"
+            >Nossas Expedições</a
+          >
+        </div>
+      </header>
+    </div>
+    <main>
+      <section class="section-about">
+        <div class="u-text-center u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            Rotas especiais feitas para pessoas Aventureiras.
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Você vai se apaixonar pela natureza
+            </h3>
+            <p class="paraghaph">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
+              accusantium quaerat nesciunt iure in expedita eos cum eum quae
+              excepturi. Illum neque fugiat asperiores? Illo quod rerum
+              veritatis inventore suscipit?
+            </p>
+
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Viva aventuras inesperadas.
+            </h3>
+            <p class="paraghaph">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
+              accusantium quaerat nesciunt iure in expedita eos cum eum quae
+              excepturi. Illum neque fugiat asperiores?
+            </p>
+
+            <a href="#" class="btn-text">Saiba Mais &rarr;</a>
+    </div>
+    <div class="col-1-of-2">
+        <div class="composition">
+            <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w" sizes="(max-width: 1000px) 20vw, (max-width: 414px) 30vw, 300px" alt="photo1" class="composition__photo composition__photo--p1" src="img/nat-1-large.jpg" />
+            <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w" sizes="(max-width: 1000px) 20vw, (max-width: 414px) 30vw, 300px" alt="photo1" class="composition__photo composition__photo--p2" src="img/nat-2-large.jpg" />
+            <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w" sizes="(max-width: 1000px) 20vw, (max-width: 414px) 30vw, 300px" alt="photo1" class="composition__photo composition__photo--p3" src="img/nat-3-large.jpg" />
+        </div>
+    </div>
+    </div>
+    </section>
+    <section class="section-feature">
+        <div class="row">
+            <div class="col-1-of-4">
+                <div class="feature-box">
+                    <i class="feature-box__icon icon-basic-world"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">
+                        Explore o Mundo!
+                    </h3>
+
+                    <p class="feature-box__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum non perferendis, consequuntur molestias quis, eum incidunt voluptate ipsa
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <div class="feature-box">
+                    <i class="feature-box__icon icon-basic-compass"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">
+                        Conheça a Natureza!
+                    </h3>
+
+                    <p class="feature-box__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum non perferendis, consequuntur molestias quis, eum incidunt voluptate ipsa
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <div class="feature-box">
+                    <i class="feature-box__icon icon-basic-map"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">
+                        Encontre sua Rota!
+                    </h3>
+
+                    <p class="feature-box__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum non perferendis, consequuntur molestias quis, eum incidunt voluptate ipsa
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <div class="feature-box">
+                    <i class="feature-box__icon icon-basic-heart"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">
+                        Vida saudável!
+                    </h3>
+
+                    <p class="feature-box__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum non perferendis, consequuntur molestias quis, eum incidunt voluptate ipsa
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-tours" id="section_tours">
+        <div class="u-text-center">
+            <h2 class="heading-secondary u-margin-bottom-big">
+                Nossos Principais Passeios.
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-1-of-3">
+                <div class="card">
+                    <div class="card__side card__side--front">
+                        <div class="card__picture card__picture--1">&nbsp;</div>
+                        <h4 class="card__heading">
+                            <span class="card__heading-span card__heading-span--1">
+                    Explorador de oceanos</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Trilha de 3 dias</li>
+                    <li>Para até 30 participantes</li>
+                    <li>Com 2 guias exclusivos</li>
+                    <li>2 Noites de hotel</li>
+                    <li>Dificuldade: Iniciante</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <div class="card__price-only">Only</div>
+                    <div class="card__price-value">R$199,00</div>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Reserve Agora!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2"
+                    >Caminhada na Floresta</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Trilha de 7 dias</li>
+                    <li>Para até 40 participantes</li>
+                    <li>Com 6 guias exclusivos</li>
+                    <li>Dormir em Barracas de camping</li>
+                    <li>Dificuldade: Intermediário</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <div class="card__price-only">Only</div>
+                    <div class="card__price-value">R$399,00</div>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Reserve Agora!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3">
+                    Aventura na Neve
+                  </span>
+                        </h4>
+                        <div class="card__details">
+                            <ul>
+                                <li>Trilha de 5 dias</li>
+                                <li>Para até 15 participantes</li>
+                                <li>Com 3 guias exclusivos</li>
+                                <li>Dormir em Barracas de camping</li>
+                                <li>Dificuldade: Avançado</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card__side card__side--back card__side--back-3">
+                        <div class="card__cta">
+                            <div class="card__price-box">
+                                <div class="card__price-only">Only</div>
+                                <div class="card__price-value">R$599,00</div>
+                            </div>
+                            <a href="#popup" class="btn btn--white">Viva uma Aventura!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="u-text-center">
+            <a href="#" class="btn btn--green u-margin-top-big">Reserve Agora!</a>
+        </div>
+    </section>
+
+    <!-- Start section-histories -->
+    <section class="section-histories">
+        <div class="bg-video">
+            <video class="bg-video__content" autoplay muted loop>
+            <source src="img/video.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
+            O seu navegador não suporta o formato dos vídeos!
+          </video>
+        </div>
+        <div class="u-text-center u-margin-bottom-big">
+            <h2 class="heading-secondary">
+                Proporcionamos Aventuras Reais com total Segurança
+            </h2>
+        </div>
+
+        <div class="row">
+            <div class="story">
+                <figure class="story__shape">
+                    <img src="img/nat-8.jpg" class="story__img" alt="Person" />
+                    <figcaption class="story__caption">Maria Eduarda</figcaption>
+                </figure>
+                <div class="story__text">
+                    <h3 class="h3 heading-tertiary u-margin-bottom-small">
+                        Tive a melhor aventura da minha vida!
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga deleniti in reiciendis accusantium ipsam consequuntur, fugit quos nobis inventore libero ad ducimus a cupiditate magni reprehenderit, aspernatur optio quas nihil!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="story">
+                <figure class="story__shape">
+                    <img src="img/nat-9.jpg" class="story__img" alt="Person" />
+                    <figcaption class="story__caption">Antonio Carlos</figcaption>
+                </figure>
+                <div class="story__text">
+                    <h3 class="h3 heading-tertiary u-margin-bottom-small">
+                        Se sentir livre não tem Preço!
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga deleniti in reiciendis accusantium ipsam consequuntur, fugit quos nobis inventore libero ad ducimus a cupiditate magni reprehenderit, aspernatur optio quas nihil!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="u-text-center">
+            <a href="#" class="btn-text u-margin-top-big">Leia Nossas Aventuras &rarr;</a
+          >
+        </div>
+      </section>
+      <section class="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary">Reserve Agora:</h2>
+                </div>
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Nome completo"
+                    id="nome"
+                    autocomplete="off"
+                    required
+                  />
+                  <label for="nome" class="form__label">Nome Completo:</label>
+                </div>
+                <div class="form__group">
+                  <input
+                    type="email"
+                    autocomplete="off"
+                    class="form__input"
+                    placeholder="Seu Email"
+                    id="email"
+                    required
+                  />
+                  <label for="email" class="form__label">Seu Email:</label>
+                </div>
+                <div class="form__group u-margin-bottom-medium">
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="small"
+                      name="size"
+                    />
+                    <label for="small" class="form__radio-label">
+                      <span class="form__radio-button"></span> Pequenos Grupos
+                    </label>
+                  </div>
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="large"
+                      name="size"
+                    />
+                    <label for="large" class="form__radio-label">
+                      <span class="form__radio-button"></span> Grandes Grupos
+                    </label>
+                  </div>
+                </div>
+                <div class="form__group">
+                  <button class="btn btn--green">Proximo passo &#8594;</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <img
+          src="img/logo-green-2x.png"
+          alt="Logo Natours"
+          class="footer__logo"
+        />
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Empresa</a>
+            </li>
+            <li class="footer__item">
+                <a href="#" class="footer__link">Contato</a>
+            </li>
+            <li class="footer__item">
+                <a href="#" class="footer__link">Carreira</a>
+            </li>
+            <li class="footer__item">
+                <a href="#" class="footer__link">Politica de Privacidade</a>
+            </li>
+            <li class="footer__item">
+                <a href="#" class="footer__link">Regras</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+        <div class="col-1-of-2">
+            <p class="footer__copyright">
+                Pagina criada por
+                <a href="#" class="footer__link">17Ideias.com.br</a>. As tecnologias usadas para criar esta página foram: Html , Css , Sass e nodeJs. Copyright &copy; by Rodrigo Guedes / 17Ideias/2021
+            </p>
+        </div>
+        </div>
+        </footer>
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="Tour" class="popup__img" />
+                    <img src="img/nat-9.jpg" alt="Photo" class="popup__img" />
+                </div>
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary">Reserve Agora!</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">
+                        Importante &ndash; Por favor , leia as regras antes de fazer sua reserva.
+                    </h3>
+                    <p class="popup__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dapibus congue. Mauris ullamcorper sollicitudin facilisis. Nulla pretium, metus eu mollis luctus, lacus libero suscipit neque, a maximus diam erat non ligula. Maecenas nibh odio, gravida
+                        ut magna et, ullamcorper vulputate metus. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse efficitur ex vel nunc vulputate, vitae luctus massa
+                        rutrum. Aenean et leo dui. Aliquam erat volutpat. Morbi eget vestibulum est, non sagittis lorem. Praesent efficitur imperdiet interdum.
+                    </p>
+                    <a href="#" class="btn btn--green">Reserve Agora</a>
+                </div>
+            </div>
+        </div>
+        <!-- <section class="grid-test">
+        <div class="row">
+            <div class="col-1-of-2">Col 1 of 2</div>
+            <div class="col-1-of-2">Col 1 of 2</div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-3">Col 1 of 3</div>    
+            <div class="col-1-of-3">Col 1 of 3</div>
+            <div class="col-1-of-3">Col 1 of 3</div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-3">Col 1 of 3</div>
+            <div class="c  ">Col 2 of 3</div>
+
+        </div>
+        <div class="row">
+            <div class="col-1-of-4">Col 1 of 4</div>
+            <div class="col-1-of-4">Col 2 of 4</div>
+            <div class="col-1-of-4">Col 3 of 4</div>
+            <div class="col-1-of-4">Col 4 of 4</div>
+
+        </div>
+        <div class="row">
+            <div class="col-1-of-4">Col 1 of 4</div>
+            <div class="col-1-of-4">Col 1 of 4</div>
+            <div class="col-2-of-4">Col 2 of 4</div>
+
+        </div>
+        <div class="row">
+            <div class="col-1-of-4">Col 1 of 4</div>
+            <div class="col-3-of-4">Col 3 of 4</div>
+
+
+        </div>
+    </section> -->
+</body>
+
 </html>

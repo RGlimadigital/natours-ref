@@ -1,0 +1,25 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watchSass": "sass --watch scss:css",
+    "compileSass": "sass --no-source-map sass/main.scss css/teste-sass.comp.css",
+    "start": "npm-run-all compileSass watchSass",
+    "concat:scss": "concat -o css/test-concat-sass.concat.css css/icon-font.css css/teste-sass.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/test-concat-sass.concat.css -o css/test-sass.prefix.css",
+    "compress:css": "sass --style=compressed css/test-sass.prefix.css css/style.min.css",
+    "build:css": "npm-run-all compileSass concat:scss prefix:css compress:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "concat": "^1.0.3",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^9.0.2",
+    "sass": "^1.52.1"
+  }
+}
